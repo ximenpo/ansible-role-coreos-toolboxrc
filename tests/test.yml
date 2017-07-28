@@ -1,0 +1,10 @@
+---
+
+- name: test
+  hosts: localhost
+  gather_facts: false
+  roles:
+    - role: coreos-toolboxrc
+      #toolbox_image_name: fedora
+      #toolbox_image_tag: latest
+      #toolbox_image_archive_url: http://xxxxxxxxx/xxx/xxx.tar.xz

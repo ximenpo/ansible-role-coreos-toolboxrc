@@ -1,0 +1,8 @@
+---
+
+- name: generate .toolboxrc
+  script: >
+      generate-toolboxrc.sh
+        {{ toolbox_image_archive_url or ""|quote }}
+        {{ toolbox_image_name or ""|quote }}
+        {{ toolbox_image_tag or ""|quote }}
