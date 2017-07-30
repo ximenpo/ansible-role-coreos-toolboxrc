@@ -6,3 +6,4 @@
         {{ toolbox_image_archive_url or ""|quote }}
         {{ toolbox_image_name or ""|quote }}
         {{ toolbox_image_tag or ""|quote }}
+        {{ 1 if toolbox_image_import_from_docker else 0|quote }}
