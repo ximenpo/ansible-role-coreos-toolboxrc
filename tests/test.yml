@@ -5,6 +5,6 @@
   gather_facts: false
   roles:
     - role: coreos-toolboxrc
-      #toolbox_image_name: fedora
-      #toolbox_image_tag: latest
-      #toolbox_image_archive_url: http://xxxxxxxxx/xxx/xxx.tar.xz
+      #toolboxrc_image_name: fedora
+      #toolboxrc_image_tag: latest
+      #toolboxrc_image_archive_url: http://xxxxxxxxx/xxx/xxx.tar.xz

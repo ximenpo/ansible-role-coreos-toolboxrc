@@ -1,11 +1,11 @@
 ---
 
 # Docker镜像名及标签，TOOLBOX_DOCKER_IMAGE & TOOLBOX_DOCKER_TAG
-toolbox_image_name: ~
-toolbox_image_tag: ~
+toolboxrc_image_name: ~
+toolboxrc_image_tag: ~
 
 # 设置镜像下载地址(须wget支持), TOOLBOX_DOCKER_ARCHIVE
-toolbox_image_archive_url: ~
+toolboxrc_image_archive_url: ~
 
 # 自动从docker镜像中导入
-toolbox_image_import_from_docker: false
+toolboxrc_image_import_from_docker: false
