@@ -6,4 +6,4 @@
         {{ toolboxrc_image_archive_url or ""|quote }}
         {{ toolboxrc_image_name or ""|quote }}
         {{ toolboxrc_image_tag or ""|quote }}
-        {{ 1 if toolboxrc_image_import_from_docker else 0|quote }}
+        {{ 1 if toolboxrc_image_import_from_docker else 0 }}
